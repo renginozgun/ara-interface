@@ -1,0 +1,81 @@
+h1 {
+  font-size: 10vw;
+  color: #ffc107;
+  max-width: 500px;
+}
+main {
+  background: white;
+  margin: 25px 0;
+  padding: 0px;
+}
+
+main div {
+  margin: 0 auto;
+  color: white;
+  padding: 10px;
+  margin: 0px auto;
+}
+main div:nth-child(1) {
+ 
+  width: 500px;
+}
+main div:nth-child(2) {
+  margin-top: -55px;
+  margin-left: auto;
+  width: 300px;
+}
+.button3{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+   
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#f5381f;
+    text-align:center;
+    transition: all 0.2s;
+    }
+.button3:hover{
+    background-color:#db0700;
+    }
+.z-text {
+  transform: rotateX(30deg) rotateY(-30deg);
+  transition: transform 1s;
+}
+
+[data-z]:hover .z-text {
+  transform: rotateX(-30deg) rotateY(30deg);
+}
+
+.z-layer:not(:first-child) {
+  color: #bf9105;
+}
+.center {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 300px;
+}
+.quote-body { 
+ margin: auto; 
+ width: 10px; 
+ height: 50px; 
+ margin-top: 250px;
+ margin-left: 220px;
+
+}
+#quote { 
+margin-top: 200px;   
+margin-left: 220px;
+ font-size: 25px; 
+ font-weight: bold;
+}
+#author {
+margin-top: 30px;
+margin-left: 220px;
+ font-weight: normal;
+ font-size: 10px
+}
